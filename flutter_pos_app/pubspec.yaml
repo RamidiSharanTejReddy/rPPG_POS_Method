@@ -1,0 +1,24 @@
+name: flutter_pos_app
+description: A Flutter application that implements the POS technique for video processing.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+2
+  provider: ^6.0.0
+  torch_light: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
